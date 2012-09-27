@@ -39,3 +39,8 @@ gem 'jquery-rails'
 # gem 'ruby-debug'
 
 gem 'turbolinks'
+
+group :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+end
