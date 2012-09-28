@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def show
-    sleep 0.1
+    sleep 0.5
     @id = params[:id]
     @next_id = @id.to_i + 1
 
