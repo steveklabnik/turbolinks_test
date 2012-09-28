@@ -36,6 +36,10 @@ This probably isn't even a good test. I don't care. Tell me how it sucks. Let's
 figure it out. But having actual measurements beats complaining about shit on 
 Twitter any day.
 
+### all the assets branch
+
+This has BCX's Javascript and CSS files.
+
 ## To run it:
 
 ```
@@ -52,8 +56,8 @@ With 1000 pages:
 ```
 $ rspec
        user     system      total        real
- no turbolinks 11.170000   0.980000  12.460000 (138.656728)
-yes turbolinks 10.800000   0.870000  11.670000 ( 80.436286)
+ no turbolinks 21.990000   2.890000  25.150000 (581.822206)
+yes turbolinks 10.970000   0.910000  11.880000 (196.481247)
 ```
 
 With 100 pages:
@@ -61,7 +65,7 @@ With 100 pages:
 ```
 $ rspec
        user     system      total        real
- no turbolinks  1.640000   0.190000   2.140000 ( 15.652763)
-yes turbolinks  1.120000   0.090000   1.210000 (  7.776116)
+ no turbolinks  2.230000   0.300000   2.800000 ( 56.777195)
+yes turbolinks  1.130000   0.090000   1.220000 ( 19.173316)
 ```
 
