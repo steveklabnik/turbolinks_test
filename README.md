@@ -36,6 +36,11 @@ This probably isn't even a good test. I don't care. Tell me how it sucks. Let's
 figure it out. But having actual measurements beats complaining about shit on 
 Twitter any day.
 
+### what's it do?
+
+Well, it fires up Selenium, and clicks some links. 1000 of them, by default.
+Then it prints out how long that took.
+
 ## To run it:
 
 ```
