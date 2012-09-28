@@ -41,6 +41,18 @@ Twitter any day.
 Well, it fires up Selenium, and clicks some links. 1000 of them, by default.
 Then it prints out how long that took.
 
+## Branches
+
+* [master](https://github.com/steveklabnik/turbolinks_test/tree/master): a plain Rails app.
+* [Just CSS](https://github.com/steveklabnik/turbolinks_test/tree/just_css): This has Basecamp Next's CSS file in it.
+* [Just JS](https://github.com/steveklabnik/turbolinks_test/tree/just_js): This has Basecamp Next's JS file in it.
+* [All the Assets](https://github.com/steveklabnik/turbolinks_test/tree/all_the_assets): This has both.
+* [With Little Sleep](https://github.com/steveklabnik/turbolinks_test/tree/with_little_sleep): With a `sleep 0.1` in the controller, to simulate database access
+* [With Lots of Sleep](https://github.com/steveklabnik/turbolinks_test/tree/with_lots_of_sleep): Ditto, but `sleep 0.5`.
+
+I've added [some commits to master](https://github.com/steveklabnik/turbolinks_test/commits/master) since I originally forked the branches. If you try this, you
+may want to add some of them in.
+
 ## To run it:
 
 ```
