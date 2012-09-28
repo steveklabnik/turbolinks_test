@@ -6,16 +6,19 @@ describe "Turbolinks" do
 
     n = ENV["TIMES"] ? ENV["TIMES"].to_i : 1000
     Benchmark.bm do |x|
+      visit "/pages/1"
+      3.times { click_link "next" }
+      click_link "beginning"
       x.report " no turbolinks" do
-        visit "/pages/1"
-
         n.times do
           click_link "next"
         end
       end
-      x.report "yes turbolinks" do
-        visit "/pages/1?turbo=true"
 
+      visit "/pages/1?turbo=true"
+      3.times { click_link "next" }
+      click_link "beginning"
+      x.report "yes turbolinks" do
         n.times do
           click_link "next"
         end
