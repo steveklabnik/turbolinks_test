@@ -40,7 +40,8 @@ Twitter any day.
 
 ```
 $ bundle
-$ rspec
+$ rake assets:precompile
+$ TIMES=100 rspec
 ```
 
 Done.

@@ -4,7 +4,7 @@ require 'benchmark'
 describe "Turbolinks" do
   it "tests performance", :js => true do
 
-    n = 1000
+    n = ENV["TIMES"] ? ENV["TIMES"].to_i : 1000
     Benchmark.bm do |x|
       x.report " no turbolinks" do
         visit "/pages/1"
