@@ -36,9 +36,10 @@ This probably isn't even a good test. I don't care. Tell me how it sucks. Let's
 figure it out. But having actual measurements beats complaining about shit on 
 Twitter any day.
 
-### all the assets branch
+### with little sleep branch
 
-This has BCX's Javascript and CSS files.
+This has BCX's Javascript and CSS files, and adds a `sleep 0.1` in the
+controller to simulate database access.
 
 ## To run it:
 
@@ -56,16 +57,16 @@ With 1000 pages:
 ```
 $ rspec
        user     system      total        real
- no turbolinks 21.990000   2.890000  25.150000 (581.822206)
-yes turbolinks 10.970000   0.910000  11.880000 (196.481247)
+ no turbolinks 20.060000   2.490000  22.840000 (706.659372)
+yes turbolinks 17.190000   2.110000  19.300000 (412.718228)
 ```
 
 With 100 pages:
 
 ```
-$ rspec
+$ rspec  
        user     system      total        real
- no turbolinks  2.230000   0.300000   2.800000 ( 56.777195)
-yes turbolinks  1.130000   0.090000   1.220000 ( 19.173316)
+ no turbolinks  1.860000   0.260000   2.430000 ( 64.887915)
+yes turbolinks  1.190000   0.120000   1.310000 ( 38.416124)
 ```
 
