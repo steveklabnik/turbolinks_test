@@ -36,6 +36,10 @@ This probably isn't even a good test. I don't care. Tell me how it sucks. Let's
 figure it out. But having actual measurements beats complaining about shit on 
 Twitter any day.
 
+### JUST CSS BRANCH
+
+This test adds Basecamp Next's CSS file.
+
 ## To run it:
 
 ```
@@ -52,8 +56,8 @@ With 1000 pages:
 ```
 $ rspec
        user     system      total        real
- no turbolinks 11.170000   0.980000  12.460000 (138.656728)
-yes turbolinks 10.800000   0.870000  11.670000 ( 80.436286)
+ no turbolinks 14.470000   1.540000  16.320000 (235.404727)
+yes turbolinks 10.730000   0.870000  11.600000 ( 82.176967)
 ```
 
 With 100 pages:
@@ -61,7 +65,7 @@ With 100 pages:
 ```
 $ rspec
        user     system      total        real
- no turbolinks  1.640000   0.190000   2.140000 ( 15.652763)
-yes turbolinks  1.120000   0.090000   1.210000 (  7.776116)
+ no turbolinks  1.680000   0.220000   2.210000 ( 24.392842)
+yes turbolinks  1.090000   0.090000   1.180000 (  8.436643)
 ```
 
