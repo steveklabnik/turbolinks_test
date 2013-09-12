@@ -4,7 +4,7 @@ require 'benchmark'
 describe "Turbolinks" do
   it "tests performance", :js => true do
 
-    n = 100
+    n = 1000
     Benchmark.bm do |x|
       x.report "   nothing" do
         visit "/pages/1"
